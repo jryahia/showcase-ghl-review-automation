@@ -1,6 +1,6 @@
 # GHL Review Automation
 
-**Requests Google, Facebook and Yelp reviews by SMS after a job is marked complete, with smart follow-up.**
+**Review-request automation for GoHighLevel: a completed job triggers a Google, Facebook or Yelp review request with smart follow-up. Sending is simulated in this version.**
 
 > **This is a proprietary project. Source code is private. This page showcases the system's architecture and results.**
 
@@ -35,13 +35,17 @@ Happy customers rarely leave reviews unless asked at the right moment. This syst
 
 ## What it does in practice
 
-- Makes review collection a default step after every job instead of a manual favor.
+- Prototype stage: the request lifecycle, templates and follow-up scheduling are built; SMS/email sending is simulated (Twilio/SendGrid hookup is the next step).
 
 ## Screenshots
 
 **Requests by platform and status**
 
 ![Requests by platform and status](assets/00-dashboard.png)
+
+**API surface: webhooks, requests, templates, follow-ups**
+
+![API surface: webhooks, requests, templates, follow-ups](assets/10-api.png)
 
 ---
 
