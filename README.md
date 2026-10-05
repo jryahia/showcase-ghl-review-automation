@@ -39,6 +39,8 @@ Happy customers rarely leave reviews unless asked at the right moment. This syst
 
 ## Screenshots
 
+> Screenshots show the app running on seeded demo data, not client data.
+
 **Requests by platform and status**
 
 ![Requests by platform and status](assets/00-dashboard.png)
